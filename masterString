@@ -1,0 +1,5 @@
+def master_string(title, body, author, comments):
+    if body == '':
+        body = 'Not Available'
+    string = f"TITLE OF POST: {title}\n AUTHOR: {author}\nBODY: {body}\nCOMMENTS: {comments}"
+    return string
